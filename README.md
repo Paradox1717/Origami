@@ -1,2 +1,2 @@
 # Origami
-An origami website. Designed to teach origami from the basics, to the most complex origami. Shrijan is awesome.
+An origami website. Designed to teach origami from the basics, to the most complex origami. Ashish is awesome.
