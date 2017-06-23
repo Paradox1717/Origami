@@ -6,11 +6,11 @@ function change() {
 	if (!flag1) {
 		flag = false;
 		var elem = document.getElementById("anim1");
-		elem.className = "trans1 center";
+		elem.className = "trans1";
 
 		setTimeout(function () {
 			elem = document.getElementById("anim2");
-			elem.className = "trans2 center";
+			elem.className = "trans2";
 		}, 900);
 
 		setTimeout(function () {
@@ -28,17 +28,17 @@ function offChange() {
 
 		setTimeout(function () {
 			elem = document.getElementById("anim3");
-			elem.className = "parent1 center";
+			elem.className = "parent1";
 		}, 200);
 
 		setTimeout(function () {
 			elem = document.getElementById("anim2");
-			elem.className = "parent1 center";
+			elem.className = "parent1";
 		}, 1100);
 
 		setTimeout(function () {
 			elem = document.getElementById("anim1");
-			elem.className = "parent1 center";
+			elem.className = "parent1";
 			flag1 = false
 		}, 2000);
 	}
