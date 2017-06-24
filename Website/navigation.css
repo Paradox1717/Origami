@@ -1,0 +1,47 @@
+﻿@font-face {
+    font-family: 'Makestencil';
+    src: url(../Website/MAKEA___.TTF);
+}
+
+.navigation {
+    width: 100%;
+    height: 62.5px;
+    background-color: #000000;
+    color: #c1c1c1;
+
+    position: relative;
+
+    display: table;
+}
+
+.navigationInline {
+    width: 20%;
+    height: 101%;
+
+    display: inline-block;
+}
+
+
+.navigationCell {
+    width: 101%;
+    height: 100%;
+
+    font-size: 24px;
+
+    display: table;
+
+    background-color: #171717;
+}
+
+.navigationText {
+    font-family: Makestencil;
+
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.navigationCell:hover {
+    background-color: #373737;
+    cursor: pointer;
+}
